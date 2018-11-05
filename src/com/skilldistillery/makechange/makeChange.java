@@ -25,7 +25,7 @@ public class makeChange {
 		int counter = 0;
 		
 		if(amountTendered < price) {
-			System.out.println("Error: enter a new amount");
+			System.out.println("Error");
 		}
 
 		System.out.print("Amount: " + price +", Tendered: " + amountTendered + " Result: " );
